@@ -1,0 +1,15 @@
+# Build outputs
+bin/
+obj/
+
+# Compiled binaries
+*.exe
+*.dll
+*.pdb
+
+# Cache files
+*.cache
+
+# JSON metadata (keep appsettings if needed)
+*.sourcelink.json
+AssemblyInfoInputs.cache
