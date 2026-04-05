@@ -1,8 +1,16 @@
 ﻿using System;
 
-class GFG {
+class DesignPatterns{
     // Main Method
     public static void Main(){
-      Console.WriteLine("Main Method");
+        Duck mallard = new MallardDuck();
+        mallard.Quack();
+        mallard.Fly();
+
+        Duck decoy = new DecoyDuck();
+        decoy.Quack();
+        decoy.setFlyBehaviour(new FlyWithWings());
+        decoy.Fly();
+
     }
 }

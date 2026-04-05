@@ -12,3 +12,4 @@ C:\Users\user\Desktop\Design Patterns\DesignPatterns\obj\Debug\net10.0\refint\De
 C:\Users\user\Desktop\Design Patterns\DesignPatterns\obj\Debug\net10.0\DesignPatterns.pdb
 C:\Users\user\Desktop\Design Patterns\DesignPatterns\obj\Debug\net10.0\DesignPatterns.genruntimeconfig.cache
 C:\Users\user\Desktop\Design Patterns\DesignPatterns\obj\Debug\net10.0\ref\DesignPatterns.dll
+C:\Users\user\Desktop\Design Patterns\DesignPatterns\obj\Debug\net10.0\DesignPatterns.sourcelink.json

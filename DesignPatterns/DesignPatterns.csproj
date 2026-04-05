@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\StrategyPattern\**\*.cs" />
+  </ItemGroup>
+
 </Project>
