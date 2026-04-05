@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Include="..\StrategyPattern\**\*.cs" />
+    <Compile Include="..\ObserverPattern\**\*.cs" />
   </ItemGroup>
 
 </Project>
