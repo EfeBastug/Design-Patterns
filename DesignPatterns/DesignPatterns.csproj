@@ -12,6 +12,7 @@
     <Compile Include="..\ObserverPattern\**\*.cs" />
     <Compile Include="..\DecoratorPattern\**\*.cs" />
     <Compile Include="..\FactoryPattern\**\*.cs" />
+    <Compile Include="..\SingletonPattern\**\*.cs" />
   </ItemGroup>
 
 </Project>
