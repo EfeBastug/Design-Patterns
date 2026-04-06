@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
-public class DesignPatterns 
+public class DesignPatterns
 {
     // Main Method
     public static void Main(){
-        /* 
+        /*
         // Strategy Pattern Example
         Duck mallard = new MallardDuck();
         mallard.Quack();
@@ -24,7 +24,6 @@ public class DesignPatterns
         weatherData.SetMeasurements(80, 65, 30.4f);
         weatherData.SetMeasurements(82, 70, 29.2f);
         weatherData.SetMeasurements(78, 90, 29.2f);
-        */
 
         // Decorator Pattern Example
         Beverage beverage = new Espresso();
@@ -41,5 +40,26 @@ public class DesignPatterns
         beverage3 = new Mocha(beverage3);
         beverage3 = new Whip(beverage3);
         Console.WriteLine($"{beverage3.GetDescription()} ${beverage3.Cost()}");
+        */
+
+        // Factory Pattern Example
+        PizzaStore nyStore = new NYPizzaStore();
+        PizzaStore chicagoStore = new ChicagoPizzaStore();
+
+        Pizza pizza = nyStore.OrderPizza("cheese");
+        Console.WriteLine("Ethan ordered a " + pizza.Name + "\n");
+        Console.WriteLine(pizza);
+
+        pizza = chicagoStore.OrderPizza("cheese");
+        Console.WriteLine("Joel ordered a " + pizza.Name + "\n");
+        Console.WriteLine(pizza);
+
+        pizza = nyStore.OrderPizza("clam");
+        Console.WriteLine("Ethan ordered a " + pizza.Name + "\n");
+        Console.WriteLine(pizza);
+
+        pizza = chicagoStore.OrderPizza("clam");
+        Console.WriteLine("Joel ordered a " + pizza.Name + "\n");
+        Console.WriteLine(pizza);
     }
 }

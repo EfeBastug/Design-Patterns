@@ -11,6 +11,7 @@
     <Compile Include="..\StrategyPattern\**\*.cs" />
     <Compile Include="..\ObserverPattern\**\*.cs" />
     <Compile Include="..\DecoratorPattern\**\*.cs" />
+    <Compile Include="..\FactoryPattern\**\*.cs" />
   </ItemGroup>
 
 </Project>
